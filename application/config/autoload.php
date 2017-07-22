@@ -132,5 +132,5 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['library'] = array();
+$autoload['library'] = array('session');
 $autoload['model'] = array();
