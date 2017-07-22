@@ -13,7 +13,7 @@ $this->load->library('session');
 	<meta name="msapplication-TileImage" content="<?php echo asset_url();?>img/cropped-favicon-270x270.png">
 	<link href="<?php echo asset_url();?>css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="<?php echo asset_url();?>css/app.css">
-	<script type = 'text/javascript' src = "<?php echo base_url();?>assets/js/ckeditor.js"></script>
+
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
