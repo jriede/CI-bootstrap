@@ -3,8 +3,8 @@
   //print_r($_SESSION);
 ?>
 <nav class="navbar navbar-expand-lg navbar-light navbar-top">
-  <span class="oi" data-glyph="home" title="home" aria-hidden="true"></span>
-  <a class="navbar-brand" href="<?php echo site_url('');?>">Home</a>
+
+  <a class="navbar-brand" href="<?php echo site_url('');?>"><span class="oi" data-glyph="home" title="home" aria-hidden="true"></span> Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -63,16 +63,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Content</a>
+            <a class="nav-link" href="#">Menu 1</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Menu 2</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Menu 3</a>
           </li>
 
         </ul>
