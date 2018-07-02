@@ -1,6 +1,6 @@
 <footer class="footer">
       <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
+        <span class="text-muted">&copy; Dr. Julia Riede 2018</span>
       </div>
     </footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

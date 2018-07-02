@@ -32,3 +32,8 @@ ERROR - 2018-07-02 18:59:55 --> Severity: Notice --> Undefined variable: title /
 ERROR - 2018-07-02 19:00:06 --> Severity: Notice --> Undefined variable: title /Users/jule/Sites/CI-bootstrap/application/views/templates/header.php 7
 ERROR - 2018-07-02 19:00:32 --> Severity: Notice --> Undefined variable: title /Users/jule/Sites/CI-bootstrap/application/views/templates/header.php 7
 ERROR - 2018-07-02 19:00:45 --> Severity: Notice --> Undefined variable: title /Users/jule/Sites/CI-bootstrap/application/views/templates/header.php 7
+ERROR - 2018-07-02 19:02:32 --> Severity: Notice --> Undefined variable: title /Users/jule/Sites/CI-bootstrap/application/views/templates/header.php 7
+ERROR - 2018-07-02 19:03:42 --> Severity: Notice --> Undefined variable: title /Users/jule/Sites/CI-bootstrap/application/views/templates/header.php 7
+ERROR - 2018-07-02 19:03:59 --> Severity: Notice --> Undefined variable: title /Users/jule/Sites/CI-bootstrap/application/views/templates/header.php 7
+ERROR - 2018-07-02 19:04:15 --> Severity: Notice --> Undefined variable: title /Users/jule/Sites/CI-bootstrap/application/views/templates/header.php 7
+ERROR - 2018-07-02 19:04:29 --> Severity: Notice --> Undefined variable: title /Users/jule/Sites/CI-bootstrap/application/views/templates/header.php 7
