@@ -8,6 +8,7 @@
 
     <!-- Bootstrap -->
     <link href="<?php echo asset_url();?>css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo asset_url();?>open-iconic/font/css/open-iconic.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
