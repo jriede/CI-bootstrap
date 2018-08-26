@@ -2,7 +2,7 @@
   $this->load->library('session');
   //print_r($_SESSION);
 ?>
-<nav class="navbar navbar-expand-lg navbar-light navbar-top  bg-light">
+<nav class="navbar navbar-expand-lg navbar-light navbar-top bg-light">
 
   <a class="navbar-brand" href="<?php echo site_url('');?>"><span class="oi" data-glyph="home" title="home" aria-hidden="true"></span> Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
