@@ -2,7 +2,6 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
-	var $data = array();
 
 	/**
 	 * Index Page for this controller.
@@ -21,10 +20,6 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->data['title'] = "Hello!";
-		$this->load->view('templates/header', $this->data);
-		$this->load->view('templates/navigation', $this->data);
-		$this->load->view('welcome_message',$this->data);
-		$this->load->view('templates/footer', $this->data);
+		$this->load->view('welcome_message');
 	}
 }
