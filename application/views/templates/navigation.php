@@ -2,7 +2,7 @@
   $this->load->library('session');
   //print_r($_SESSION);
 ?>
-<nav class="navbar navbar-expand-lg navbar-light navbar-top bg-light">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
   <a class="navbar-brand" href="<?php echo site_url('');?>"><span class="oi" data-glyph="home" title="home" aria-hidden="true"></span> Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,27 +13,16 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">Learn</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Design
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+        <a class="nav-link" href="#">Menu 1L</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="#">Help</a>
+        <a class="nav-link" href="#">Menu 2L</a>
       </li>
-      <?php if ($_SESSION['is_admin'] === true) : ?>
-        <li class="nav-item">
-          <a class="nav-link" href="<?php echo site_url('admin');?>">Admin</a>
-        </li>
-      <?php endif; ?>
+
+      <li class="nav-item">
+        <a class="nav-link " href="#">Menu 3L</a>
+      </li>
+
     </ul>
 
 
@@ -77,9 +66,10 @@
           <li class="nav-item">
             <a class="nav-link" href="<?php echo site_url('login');?>">Login</a>
           </li>
+          <!--
           <li class="nav-item">
             <a class="nav-link"  href="<?php echo site_url('register');?>">Register</a>
-          </li>
+          </li> -->
             </ul>
           </div>
 

@@ -1,8 +1,11 @@
 <footer class="footer">
-      <div class="container">
-        <span class="text-muted">&copy; Dr. Julia Riede 2018</span>
-      </div>
-    </footer>
+    <div class="container">
+        Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?>
+        <span class="text-muted">&copy; Dr. Julia Riede 2020</span>
+    </div>
+</footer>
+
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

@@ -18,8 +18,7 @@
     <![endif]-->
 
     <link rel="stylesheet" href="<?php echo asset_url();?>css/app.css">
-    <script src="<?php echo asset_url();?>js/Chart.js"></script>
 
 
   </head>
-        <body>
+  <body>
