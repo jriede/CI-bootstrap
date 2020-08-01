@@ -6,6 +6,7 @@
 				<h1>Login success!</h1>
 			</div>
 			<p>You are now logged in.</p>
+			<p>Session: <?php print_r($_SESSION);?></p>
 		</div>
 	</div><!-- .row -->
 </div><!-- .container -->

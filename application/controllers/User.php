@@ -133,16 +133,18 @@ class User extends CI_Controller {
 				$_SESSION['user_id']      = (int)$user->id;
 				$_SESSION['username']     = (string)$user->username;
 				$_SESSION['logged_in']    = (bool)true;
-				$_SESSION['is_confirmed'] = (bool)$user->is_confirmed;
-				$_SESSION['is_admin']     = (bool)$user->is_admin;
+				$_SESSION['is_confirmed'] = (bool)$user->confirmed;
+				$_SESSION['is_admin']     = (bool)$user->admin;
+
+				print_r($_SESSION);
 
         // user login ok
-        redirect('/');
-				/* user login ok
+        //redirect('/');
+				/* user login ok*/
 				$this->load->view('templates/header', $data);
 				$this->load->view('templates/navigation', $data);
 				$this->load->view('user/login/login_success', $data);
-				$this->load->view('templates/footer');*/
+				$this->load->view('templates/footer');
 
 			} else {
 

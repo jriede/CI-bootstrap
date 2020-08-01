@@ -11,6 +11,8 @@
 		<code>application/controllers/Welcome.php</code>
 
 		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+
+		<p>Session: <?php print_r($_SESSION);?></p>
 	</div>
 
 </div>
